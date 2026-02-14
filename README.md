@@ -17,7 +17,7 @@
 
 This repository contains the complete analysis pipeline used to statistically validate the exoplanet candidate **TOI 7475.01** (TIC 376866659).
 
-Combining a custom photometric pipeline ("Fusion-Elite") with rigorous vetting steps, we identified a robust transit signal with a period of **3.2538 days** and a depth of **~4600 ppm**. Unlike many candidates that fail due to background contamination, our analysis confirms a clean spatial environment and a False Positive Probability (FPP) of **$\approx 0$**, statistically validating the signal as a bona fide planetary companion.
+Combining a custom photometric pipeline with rigorous vetting steps, we identified a robust transit signal with a period of **3.2538 days** and a depth of **~4600 ppm**. Unlike many candidates that fail due to background contamination, our analysis confirms a clean spatial environment and a False Positive Probability (FPP) of **$\approx 0$**, statistically validating the signal as a bona fide planetary companion.
 
 Key findings supporting this validation include:
 
