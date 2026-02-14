@@ -63,7 +63,7 @@ The analysis follows a rigorous forensic protocol implemented in Python.
 ### 4. Statistical Validation (TRICERATOPS)
 * **Tool:** `triceratops` (v1.0.18)
 * **Finding:** The analysis yields a mean False Positive Probability (FPP) of **0.000000** across 20 independent runs. The probability mass is concentrated in scenarios where the planet orbits the target star (TP) or a bound companion (PTP).
-* **Script:** `03_triceratops_vetting.py` (and `03.5` for robustness test)
+* **Script:** `03_triceratops_vetting.py` (and robustness test)
 
 ## 📂 Repository Structure
 
