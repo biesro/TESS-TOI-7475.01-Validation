@@ -87,8 +87,7 @@ TOI-7475.01-Validation/
 │   ├── Figure_03_Centroid.png
 │   └── TOI7475_triceratops_20runs_histograms.png
 │
-└── paper/                      # LaTeX source code
-    └── main.tex
+└── paper
 ```
 ## 🚀 Usage & Reproducibility
 To reproduce the analysis, please note that the ipynb (03) requires a specific environment configuration to support triceratops.
