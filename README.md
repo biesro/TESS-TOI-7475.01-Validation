@@ -109,4 +109,20 @@ python code/01_detection_BLS.py
 ### 3. Running the Validation Notebook (Triceratops)
 **⚠️ IMPORTANT:** To use Triceratops I recommend following steps in the readme.md of https://github.com/JGB276/TRICERATOPS-plus/tree/main and using jupyter lab (in an isolated python 3.10 environment).
 
+## 📄 Citation
+If you use this data or methodology, please cite the arXiv paper. If you use the specific code pipeline, you may also cite the software record.
+
+**Software (BibTeX):**
+```bibtex
+
+@software{escola2026code,
+  author       = {Biel Escolà-Rodrigo},
+  title        = {TESS-TOI-7475.01-Validation: Analysis Pipeline},
+  year         = 2026,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.18641713},
+  url          = {https://doi.org/10.5281/zenodo.18641713}
+}
+```
+
 This research made use of the NASA Exoplanet Archive and TESS mission data.
