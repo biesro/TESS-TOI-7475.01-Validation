@@ -5,6 +5,7 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.10-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18641713.svg)](https://doi.org/10.5281/zenodo.18641713)
 [![Status](https://img.shields.io/badge/Status-Validated%20Planet-success.svg)]()
 ![TESS](https://img.shields.io/badge/Mission-TESS-orange)
 
