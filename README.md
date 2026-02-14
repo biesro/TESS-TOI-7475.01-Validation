@@ -8,7 +8,7 @@
 [![Status](https://img.shields.io/badge/Status-Validated%20Planet-success.svg)]()
 ![TESS](https://img.shields.io/badge/Mission-TESS-orange)
 
-**Principal Investigator:** Biel Escolà Rodrigo  
+**Principal Investigator:** Biel Escolà-Rodrigo  
 **Date:** February 2026  
 
 ---
