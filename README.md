@@ -76,19 +76,18 @@ TOI-7475.01-Validation/
 ├── requirements.txt            # Python dependencies
 ├── TOI7475.01_Folded_Raw_GrayPoints.csv
 │
-├── scripts/                    # Analysis scripts
+├── code/                    # Analysis scripts
 │   ├── 01_detection_BLS.py
 │   ├── 01.2_spatial_contamination_check.py
 │   ├── 02_centroid_FINAL.py
 │   └── 03_triceratops_vetting.py
 │
-├── figures/                    # Generated plots
-│   ├── Figure_01_BLS+Transit+OddEven.png
-│   ├── Figure_02_spatial_contam_check.png
-│   ├── Figure_03_Centroid.png
-│   └── TOI7475_triceratops_20runs_histograms.png
-│
-└── paper
+└── figures/                    # Generated plots
+    ├── Figure_01_BLS+Transit+OddEven.png
+    ├── Figure_02_spatial_contam_check.png
+    ├── Figure_03_Centroid.png
+    └── TOI7475_triceratops_20runs_histograms.png
+
 ```
 ## 🚀 Usage & Reproducibility
 To reproduce the analysis, please note that the ipynb (03) requires a specific environment configuration to support triceratops.
