@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18641713.svg)](https://doi.org/10.5281/zenodo.18641713)
 [![Status](https://img.shields.io/badge/Status-Validated%20Planet-success.svg)]()
-![TESS](https://img.shields.io/badge/Mission-TESS-orange)
+[![arXiv](https://img.shields.io/badge/arXiv-2602.14840-b31b1b.svg)](https://arxiv.org/abs/2602.14840)
 
 **Principal Investigator:** Biel Escolà-Rodrigo  
 **Date:** February 2026  
