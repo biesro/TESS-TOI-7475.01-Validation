@@ -79,7 +79,7 @@ TOI-7475.01-Validation/
 │   ├── 01_detection_BLS.py
 │   ├── 01.2_spatial_contamination_check.py
 │   ├── 02_centroid_FINAL.py
-│   ├── 03_triceratops_vetting.py
+│   ├── 03_triceratops_vetting.ipynb
 │   └── 04_characterization.py
 │
 └── figures/                    # Generated plots
