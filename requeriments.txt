@@ -1,0 +1,13 @@
+python==3.10.19
+numpy==1.26.4
+matplotlib==3.10.8
+lightkurve==2.5.1
+triceratops==1.0.20
+juliet==2.2.8
+astropy==6.1.7
+astroquery==0.4.11
+batman-package==2.5.3
+dynesty==3.0.0
+corner==2.2.3
+scipy==1.15.3
+h5py==3.15.1
