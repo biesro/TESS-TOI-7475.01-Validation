@@ -1,0 +1,58 @@
+======================================================================
+FULL CHARACTERIZATION — TOI 7475.01
+======================================================================
+
+TARGET        : TIC 376866659
+Classification: Hot Jupiter, Jupiter-sized
+
+STELLAR PARAMETERS:
+  Teff   = 6467 ± 52 K
+  M*     = 1.279 ± 0.2 M_sun
+  R*     = 1.7257 ± 0.1 R_sun
+  log g  = 4.136 ± 0.1
+  [Fe/H] = -0.099 ± 0.08
+  mJ     = 7.676 (2MASS, verified via astroquery)
+
+ORBITAL PARAMETERS:
+  P: 3.2537679 +0.0001035 -0.0000935 days
+  T0: 2460775.581615 +0.005035 -0.005030 BJD
+  e  = 0 (fixed, HJ tidal circularization)
+  a (median): 0.0467 +0.0048 -0.0053 AU
+  a (MAP): 0.0474 AU  [MAP]
+  b: 0.4641 +0.3596 -0.3167 
+
+PLANETARY PARAMETERS:
+  Rp (median): 1.1753 +0.3900 -0.3974 R_Jup
+  Rp (MAP): 1.1775 R_Jup  [MAP]
+  Rp (median): 13.17 +4.37 -4.45 R_Earth
+  Rp (MAP): 13.20 R_Earth  [MAP]
+  Mp (median): 3.0806 +64.6569 -2.8501 M_Jup
+  Mp (MAP): 2.1705 M_Jup  [MAP]
+  Mp (median): 979.0 +20548.0 -905.8 M_Earth
+  Mp (MAP): 689.8 M_Earth  [MAP]
+  rho_p (median): 2133.0 +41804.7 -1824.1 kg/m³
+  rho_p (MAP): 1482.3 kg/m³  [MAP]
+
+TEMPERATURE AND ATMOSPHERE:
+  T_eq (median): 1455 +77 -56 K
+  T_eq (MAP): 1436 K  [MAP]
+  H (median): 103 +732 -99 km
+  H (MAP): 29 km  [MAP]
+  F_p: 2137 +488 -309 F_Earth
+
+ATMOSPHERIC OBSERVABILITY:
+  TSM (Chen-Kipping mass)  = 5.6
+  TSM (Mp = 1 MJup)        = 17.1
+
+METHODOLOGY AND REFERENCES:
+  Bayesian fit     : Juliet + Dynesty
+    Ref              : Espinoza et al. (2019), MNRAS 490, 2262
+  Nested sampling  : Dynesty
+    Ref              : Speagle (2020), MNRAS 493, 3132
+  Limb darkening   : Quadratic law, Kipping (2013) parametrization
+    Coefficients     : Claret (2017), A&A 600, A30
+  Mass estimate    : Chen-Kipping (2017) M-R relation via mr_forecast
+    Ref              : Chen & Kipping (2017), ApJ 834, 17
+  MAP estimate     : Gaussian KDE (scipy.stats.gaussian_kde)
+  Error propagation: Monte Carlo (10,000 samples)
+  TSM formula      : Kempton et al. (2018), PASP 130, 114401
