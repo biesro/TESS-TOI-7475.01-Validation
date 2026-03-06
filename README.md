@@ -1,7 +1,7 @@
-# Statistical Validation of TOI 7475.01
+# Statistical Validation and Photometric Characterization of TOI 7475.01
 
 **Code repository for the paper:**
-> *Statistical Validation and Vetting of Exoplanet Candidate TOI 7475.01*
+> *Statistical Validation and Photometric Characterization of the Hot Jupiter Candidate TOI 7475.01*
 
 ![Python Version](https://img.shields.io/badge/python-3.10-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -16,7 +16,7 @@
 
 ## 🔭 Abstract
 
-This repository contains the complete analysis pipeline used to statistically validate the exoplanet candidate **TOI 7475.01** (TIC 376866659).
+This repository contains the complete analysis pipeline used to statistically validate and physically characterize the exoplanet candidate **TOI 7475.01** (TIC 376866659).
 
 Combining a custom photometric pipeline with rigorous vetting steps, we identified a robust transit signal with a period of **3.2538 days** and a depth of **~4600 ppm**. Unlike many candidates that fail due to background contamination, our analysis confirms a clean spatial environment and a False Positive Probability (FPP) of **$\approx 0$**, statistically validating the signal as a bona fide planetary companion.
 
@@ -111,6 +111,16 @@ python code/01_detection_BLS.py
 ## 📄 Citation
 If you use this data or methodology, please cite the arXiv paper. If you use the specific code pipeline, you may also cite the software record.
 
+**Paper (BibTeX):**
+```bibtex
+@article{escola2026toi7475,
+  title={Statistical Validation and Photometric Characterization of the Hot Jupiter Candidate TOI 7475.01},
+  author={Escolà Rodrigo, Biel},
+  journal={arXiv preprint arXiv:2602.14840 },
+  year={2026},
+  url={https://arxiv.org/abs/2602.14840 }
+}
+```
 **Software (BibTeX):**
 ```bibtex
 
