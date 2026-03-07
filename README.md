@@ -100,7 +100,7 @@ To reproduce the analysis, please note that the ipynb (03) requires a specific e
 1. Clone the repository
 Bash
 ```text
-git clone https://github.com/biesro/TESS-TOI-864.01-Validation.git
+git clone https://github.com/biesro/TESS-TOI-7475.01-Validation.git
 cd TESS-TOI-7475.01-Validation
 ```
 2. Running the Python Scripts (Modeling + Characterization)
