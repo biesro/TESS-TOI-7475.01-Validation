@@ -68,7 +68,7 @@ try:
             
             # ✅ BASIC CLEANING (LIKE VISUALIZER)
             temp_lc = temp_lc.remove_nans().normalize()
-            temp_lc = temp_lc.remove_outliers(sigma=5)
+            temp_lc = temp_lc.remove_outliers(sigma_upper=4, sigma_lower=15)
             
             # ❌ NO FLATTEN - We leave data natural!
             
