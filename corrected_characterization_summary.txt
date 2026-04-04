@@ -56,3 +56,5 @@ METHODOLOGY AND REFERENCES:
   MAP estimate     : Gaussian KDE (scipy.stats.gaussian_kde)
   Error propagation: Monte Carlo (10,000 samples)
   TSM formula      : Kempton et al. (2018), PASP 130, 114401
+
+There was an error on the Temperature formula that was lowering the result, and a error on the values of TSM. The TSM here presented actually isn't accurate not because of the analysis but for TRES observations detecting a minimum of 7 MJ on this candidate, which would follow up a lower TSM once again.
