@@ -1,0 +1,14 @@
+ld_law_TESS          fixed                quadratic           
+q1_TESS              normal               0.348,0.05          
+q2_TESS              normal               0.246,0.05          
+P_p1                 normal               3.253773,0.0001     
+t0_p1                normal               3775.5819000001065,0.005
+p_p1                 uniform              0.03391533576422324,0.10174600729266972
+b_p1                 uniform              0.0,0.99            
+rho                  normal               350.914,93.149      
+ecc_p1               fixed                0.0                 
+omega_p1             fixed                90.0                
+dilution_TESS        fixed                1.0                 
+mdilution_TESS       fixed                0.0                 
+mflux_TESS           normal               0.0,0.1             
+sigma_w_TESS         loguniform           0.1,1000.0          
