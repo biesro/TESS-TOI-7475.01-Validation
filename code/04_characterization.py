@@ -120,7 +120,7 @@ def calc_tsm(Rp_Rearth, Mp_Mearth, R_star_Rsol, Teq, mag_J):
     if   Rp_Rearth < 1.5:  scale = 0.190
     elif Rp_Rearth < 2.75: scale = 1.260
     elif Rp_Rearth < 4.0:  scale = 1.280
-    else:                   scale = 0.167
+    else:                   scale = 1.150
     tsm = scale * (Rp_Rearth**3 * Teq) / (Mp_Mearth * R_star_Rsol**2)
     return tsm * 10.0**(-mag_J / 5.0)
 
@@ -504,7 +504,7 @@ def propagate_uncertainties(results, config):
     # Teq = Teff × (R*/(2a))^(1/2) × (1-A)^(1/4)
     # Assumes Bond albedo A=0.3 and heat redistribution factor f=0.5
     R_sun_to_au = (const.R_sun / const.au).decompose().value
-    Teq = Teff_s * np.sqrt(R_star_s * R_sun_to_au / (2.0 * a_au)) * (0.5 * 0.7)**0.25
+    Teq = Teff_s * np.sqrt(R_star_s * R_sun_to_au / (2.0 * a_au)) * (0.7)**0.25
 
     # --- Incident flux relative to Earth ---
     # F = sigma × Teff^4 × (R*/a)²  /  F_sun
