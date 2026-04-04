@@ -140,3 +140,5 @@ If you use this data or methodology, please cite the arXiv paper. If you use the
 ```
 
 This research made use of the NASA Exoplanet Archive and TESS mission data.
+
+**⚠️ IMPORTANT:** There was some corrections on the results (Temperature and derivations) that must be seen at corrected_characterization_summary.txt for a full comprehension of the case and planet due to a metodological error.
