@@ -1,6 +1,6 @@
 # Statistical Validation and Photometric Characterization of TOI 7475.01
 
-⚠️ IMPORTANT: This repository is old and may be inaccurate because of my low level at the moment, for a real corrected and robust pipeline go see the https://github.com/biesro/TESS-TOI-7701.01-Validation
+⚠️ IMPORTANT: This repository is old and may be inaccurate because of a lower level at the moment, for a corrected and more robust pipeline go see the https://github.com/biesro/TESS-TOI-7701.01-Validation
 
 **Code repository for the paper:**
 > *Statistical Validation and Photometric Characterization of the Hot Jupiter Candidate TOI 7475.01*
